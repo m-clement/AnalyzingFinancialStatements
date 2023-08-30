@@ -17,3 +17,7 @@ plt.plot(profits, label="Profit")
 plt.title(f"${ticker} Revenue & Profit")
 plt.legend(loc="upper left")
 plt.show()
+
+if __name__ == "__main__":
+    data = end_of_day()
+    print(data.to_string())
